@@ -57,3 +57,24 @@ h1 {
     visibility: visible;
     z-index: 10;
 }
+
+.slider-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+
+.slider img {
+  width: 100%;
+  height: auto;
+}
+
+
+
+
+
+
